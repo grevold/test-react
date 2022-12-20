@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={MainPage} />
+        <Route exact path="/test-react" component={MainPage} />
         <Route component={NotFoundPage} />
       </Switch>
     </Router>
