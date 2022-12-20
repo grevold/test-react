@@ -3,19 +3,19 @@ export const resources = {
     title: "Главная страница",
     slides: [
       {
-        image: "/test-react/images/slide1.jpg",
+        image: "/test-react/images/Slider/slide1.jpg",
         text: "Слайд1",
       },
       {
-        image: "/test-react/images/slide2.jpg",
+        image: "/test-react/images/Slider/slide2.jpg",
         text: "Слайд2",
       },
       {
-        image: "/test-react/images/slide3.jpg",
+        image: "/test-react/images/Slider/slide3.jpg",
         text: "Слайд3",
       },
       {
-        image: "/test-react/images/slide4.jpg",
+        image: "/test-react/images/Slider/slide4.jpg",
         text: "Слайд4",
       },
     ],
