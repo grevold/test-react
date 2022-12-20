@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/test-react" component={MainPage} />
-        <Route exact path="/dice" component={PageDice} />
+        <Route exact path="/test-react/dice" component={PageDice} />
         <Route component={NotFoundPage} />
       </Switch>
     </Router>
