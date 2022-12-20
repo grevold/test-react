@@ -1,5 +1,15 @@
-import s from './MainPage.module.css';
+import { resources } from "../../resources";
+import { Slider } from "../../components/Slider/Slider";
+
+import s from "./MainPage.module.css";
 
 export function MainPage() {
-    return <h1 className={s.title}>MainPage</h1>
+  const {title, slides} = resources.MainPage;
+
+  return (
+    <div className={s.root}>
+      <h1 className={s.title}>{title}</h1>
+      <Slider slides={slides}  />
+    </div>
+  );
 }

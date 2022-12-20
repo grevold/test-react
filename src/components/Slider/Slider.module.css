@@ -1,0 +1,42 @@
+.root {
+    height: 400px;
+    width: 100%;
+    border: 1px solid grey;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .button {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    width: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .buttonPrev {
+    left: 0;
+  }
+  
+  .buttonNext {
+    right: 0;
+  }
+  
+  .row {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    transition: left linear 1s;
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
