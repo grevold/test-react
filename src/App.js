@@ -3,8 +3,6 @@ import { MainPage } from "./pages/MainPage/MainPage";
 import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
-
-
   return (
     <Router>
       <Switch>
