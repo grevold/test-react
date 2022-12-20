@@ -5,7 +5,7 @@ import s from "./Slider.module.css";
 import cn from "classnames";
 
 export function Slider({ slides }) {
-  const [state, setState] = useState(0);
+  const [state, setState] = useState(0); //state - текущее состояние компонента (в данном случае, index текущего слайда), setState - функция для обновления состояния, useState - реактовский хук, т.е. функция, которая возвращает State и setState, а принимает в качестве аргумента начальное значение состояния
 
   const clickPrev = () => {
     if (state === 0) return;
