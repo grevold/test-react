@@ -1,18 +1,19 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import { MainPage } from "./pages/MainPage/MainPage";
 import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 import { PageDice } from "./pages/PageDice/PageDice";
-import {GachiSoundPage} from "./pages/GachiSoundPage/GachiSoundPage";
+import { GachiSoundPage } from "./pages/GachiSoundPage/GachiSoundPage";
+import { navigation } from "./resources";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/test-react" component={MainPage} />
-        <Route exact path="/test-react/dice" component={PageDice} />
-        <Route exact path="/test-react/gachi" component={GachiSoundPage} />
-        <Route component={NotFoundPage} />
-      </Switch>
+      <Routes>
+        <Route path={navigation.MainPage} element={<MainPage />} />
+        <Route path={navigation.PageDice} element={<PageDice />} />
+        <Route path={navigation.GachiSoundPage} element={<GachiSoundPage />} />
+        <Route path={"*"} element={<NotFoundPage />} />
+      </Routes>
     </Router>
   );
 }
