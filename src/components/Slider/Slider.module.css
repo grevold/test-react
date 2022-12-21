@@ -14,6 +14,9 @@
     font-size: 30px;
     cursor: pointer;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .buttonPrev {
@@ -39,4 +42,25 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .navigation{
+    position:absolute;
+    width:100%;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bullet{
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid rgb(99, 99, 99);
+    cursor: pointer;
+    margin: 0 8px;
+  }
+  .bulletActive{
+    background-color: white;
   }

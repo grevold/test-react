@@ -31,11 +31,25 @@ export function Slider({ slides }) {
         {slides.map((slide) => (
           <li
             key={slide.text}
-            style={{ width: `${100 / slides.length}%`, backgroundImage: `url("${slide.image}")` }}
+            style={{
+              width: `${100 / slides.length}%`,
+              backgroundImage: `url("${slide.image}")`,
+            }}
             className={s.slide}
           >
             <span>{slide.text}</span>
           </li>
+        ))}
+      </ul>
+      <ul className={s.navigation}>
+        {slides.map((bullet, index) => (
+          <li
+            key={index}
+            className={
+              index === state ? cn(s.bullet, s.bulletActive) : s.bullet
+            }
+            onClick={() => setState(index)}
+          />
         ))}
       </ul>
       <button className={cn(s.button, s.buttonNext)} onClick={clickNext}>
