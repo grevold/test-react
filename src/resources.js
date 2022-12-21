@@ -1,3 +1,9 @@
+export const navigation = {
+  MainPage: "/test-react",
+  PageDice: "/test-react/dice",
+  GachiSoundPage: "/test-react/gachi",
+};
+
 export const resources = {
   MainPage: {
     title: "Главная страница",
@@ -106,6 +112,22 @@ export const resources = {
       {
         title: "Selebraite",
         src: "/test-react/samples/Selebraite.mp3",
+      },
+    ],
+  },
+  Header: {
+    links: [
+      {
+        href: navigation.MainPage,
+        text: "Главная",
+      },
+      {
+        href: navigation.PageDice,
+        text: "Кубики",
+      },
+      {
+        href: navigation.GachiSoundPage,
+        text: "♂Gachi♂",
       },
     ],
   },

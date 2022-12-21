@@ -1,5 +1,6 @@
 import s from "./GachiSoundPage.module.css";
 import { resources } from "../../resources";
+import { Header } from "../../components/Header/Header";
 
 const click = (url) => {
   const newAudio = new Audio();
@@ -12,6 +13,7 @@ export function GachiSoundPage() {
 
   return (
     <div className={s.root}>
+      <Header />
       <h1 className={s.title}>{title}</h1>
       <div className={s.container}>
         {buttons.map(({ title, src }) => (
