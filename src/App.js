@@ -5,6 +5,7 @@ import { PageDice } from "./pages/PageDice/PageDice";
 import { GachiSoundPage } from "./pages/GachiSoundPage/GachiSoundPage";
 import { navigation } from "./resources";
 import {TestFormPage} from "./pages/TestFormPage/TestFormPage";
+import {TestPromisesPage} from "./pages/TestPromisesPage/TestPromisesPage";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path={navigation.PageDice} element={<PageDice />} />
         <Route path={navigation.GachiSoundPage} element={<GachiSoundPage />} />
         <Route path={navigation.TestFormPage} element={<TestFormPage />} />
+        <Route path={navigation.TestPromisesPage} element={<TestPromisesPage />} />
         <Route path={"*"} element={<NotFoundPage />} />
       </Routes>
     </Router>
