@@ -2,7 +2,8 @@ export const navigation = {
   MainPage: "/test-react",
   PageDice: "/test-react/dice",
   GachiSoundPage: "/test-react/gachi",
-  TestFormPage: "/test-react/testForm"
+  TestFormPage: "/test-react/testForm",
+  TestPromisesPage: "/test-react/PromisesPage",
 };
 
 export const resources = {
@@ -134,6 +135,24 @@ export const resources = {
         href: navigation.TestFormPage,
         text: "Инпуты",
       },
+      {
+        href: navigation.TestPromisesPage,
+        text: "Промисы в React",
+      },
+    ],
+  },
+  PromisesPage: {
+    title: "Промисы в React",
+    fetchImagesText: "Скачать картинки",
+    defaultImagesSrcs: [
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug10-2022-08-12-08-52-37.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug11-2022-08-12-08-53-13.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug12-2022-08-12-08-53-28.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug14-2022-08-12-08-54-41.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug15-2022-08-12-08-54-56.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug16-2022-08-12-08-55-08.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug17-2022-08-12-08-55-22.png",
+      "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug18-2022-08-12-08-55-40.png",
     ],
   },
   Catalog: {
