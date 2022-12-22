@@ -2,6 +2,7 @@ export const navigation = {
   MainPage: "/test-react",
   PageDice: "/test-react/dice",
   GachiSoundPage: "/test-react/gachi",
+  TestFormPage: "/test-react/testForm"
 };
 
 export const resources = {
@@ -128,6 +129,169 @@ export const resources = {
       {
         href: navigation.GachiSoundPage,
         text: "♂Gachi♂",
+      },
+      {
+        href: navigation.TestFormPage,
+        text: "Инпуты",
+      },
+    ],
+  },
+  Catalog: {
+    products: [
+      //Chaos
+      {
+        image: "./images/Chaos_Demons_Khorne.jpg",
+        name: "Chaos Demons Khorne",
+        price: 8000,
+        category: "Chaos",
+      },
+      {
+        image: "./images/Chaos_Gors.jpg",
+        name: "Chaos Gors",
+        price: 3000,
+        category: "Chaos",
+      },
+      {
+        image: "./images/Chaos_Nurgles.jpg",
+        name: "Chaos Nurgles",
+        price: 4500,
+        category: "Chaos",
+      },
+      {
+        image: "./images/Chaos_Pink_Horrors.jpg",
+        name: "Chaos Pink Horrors",
+        price: 4000,
+        category: "Chaos",
+      },
+      {
+        image: "./images/Chaos_Blue_Horrors.jpg",
+        name: "Chaos Blue Horrors",
+        price: 4000,
+        category: "Chaos",
+      },
+      //Dwarfs
+      {
+        image: "./images/Dwarfs_Arkanauts.jpg",
+        name: "Dwarfs Arkanauts",
+        price: 5000,
+        category: "Dwarfs",
+      },
+      {
+        image: "./images/Dwarfs_Berserks.jpg",
+        name: "Dwarfs Berserks",
+        price: 6000,
+        category: "Dwarfs",
+      },
+      {
+        image: "./images/Dwarfs_Hearthguard.jpg",
+        name: "Dwarfs Hearthguard",
+        price: 3000,
+        category: "Dwarfs",
+      },
+      {
+        image: "./images/Dwarfs_Ironbreakers.jpg",
+        name: "Dwarfs Ironbreakers",
+        price: 5000,
+        category: "Dwarfs",
+      },
+      {
+        image: "./images/Dwarfs_Skyriggers.jpg",
+        name: "Dwarfs Skyriggers",
+        price: 3000,
+        category: "Dwarfs",
+      },
+      //Eternal
+      {
+        image: "./images/Eternals_Judicators.jpg",
+        name: "Eternals Judicators",
+        price: 5500,
+        category: "Eternals",
+      },
+      {
+        image: "./images/Eternals_Liberators.jpg",
+        name: "Eternals Liberators",
+        price: 7000,
+        category: "Eternals",
+      },
+      {
+        image: "./images/Eternals_Paladins.jpg",
+        name: "Eternals Paladins",
+        price: 3000,
+        category: "Eternals",
+      },
+      {
+        image: "./images/Eternals_Stormcast.jpg",
+        name: "Eternals Stormcast",
+        price: 6000,
+        category: "Eternals",
+      },
+      //Goblins
+      {
+        image: "./images/Goblins_Arachnarok_Spider.jpg",
+        name: "Goblins Arachnarok Spider",
+        price: 5000,
+        category: "Goblins",
+      },
+      {
+        image: "./images/Goblins_Fanatics.jpg",
+        name: "Goblins Fanatics",
+        price: 5000,
+        category: "Goblins",
+      },
+      {
+        image: "./images/Goblins_Gloomspite_Gitz.jpg",
+        name: "Goblins Gloomspite Gitz",
+        price: 9000,
+        category: "Goblins",
+      },
+      {
+        image: "./images/Goblins_Gobbapalooza.jpg",
+        name: "Goblins Gobbapalooza",
+        price: 4000,
+        category: "Goblins",
+      },
+      {
+        image: "./images/Goblins_Grots.jpg",
+        name: "Goblins Grots",
+        price: 4000,
+        category: "Goblins",
+      },
+      {
+        image: "./images/Goblins_Squig_Hoppers.jpg",
+        name: "Goblins Squig Hoppers",
+        price: 6000,
+        category: "Goblins",
+      },
+      //Orks
+      {
+        image: "./images/Orks_Ironjawz.jpg",
+        name: "Orks Ironjawz",
+        price: 6000,
+        category: "Orks",
+      },
+      {
+        image: "./images/Orks_Orruk_Ardboyz.jpg",
+        name: "Orks Orruk Ardboyz",
+        price: 7000,
+        category: "Orks",
+      },
+      {
+        image: "./images/Orks_Orruk_Brutes.jpg",
+        name: "Orks Orruk Brutes",
+        price: 5000,
+        category: "Orks",
+      },
+      {
+        image: "./images/Orks_Orruk_Maw_Krusha.jpg",
+        name: "Orks Orruk Maw Krusha",
+        price: 9000,
+        category: "Orks",
+      },
+      {
+        image: "./images/Orks_Savage_Orruks.jpg",
+        name: "Orks Savage Orruks",
+        price: 6500,
+        category: "Orks",
       },
     ],
   },
