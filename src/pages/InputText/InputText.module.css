@@ -1,0 +1,11 @@
+.root {
+  width: 200px;
+  height: 80px;
+}
+.delete {
+  background-color: rgb(5, 107, 8);
+  color: aliceblue;
+}
+.list{
+  margin: 10px;
+}

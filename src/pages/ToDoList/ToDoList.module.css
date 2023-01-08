@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.taskGenerator {
+  margin: 16px auto 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.tasks {
+  display: flex;
+  margin: 16px auto 0;
+  width: 100%;
+  max-width: 600px;
+}
+
+.columnToday {
+  padding: 5px;
+  border: 2px solid gray;
+  background-color: rgb(231, 231, 231);
+}
+
+.columnTomorrow {
+  padding: 5px;
+  border: 2px solid gray;
+  background-color: rgb(201, 201, 201);
+}

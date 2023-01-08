@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.root_today {
+  composes: root;
+  background-color: aqua;
+}
+
+.root_tomorrow {
+  composes: root;
+  background-color: yellow;
+}
+
+.move {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(77, 77, 226);
+  color: white;
+  font-size: 30px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid gray;
+}

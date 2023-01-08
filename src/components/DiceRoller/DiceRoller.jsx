@@ -8,7 +8,7 @@ function getRandomIntValueFromInterval(min, max) {
 export function DiceRoller({ images, buttonText }) {
   const [state, setState] = useState([0, 0]);
   const clickButton = () => {
-    setState([
+    setState(() => [
       getRandomIntValueFromInterval(0, 5),
       getRandomIntValueFromInterval(0, 5),
     ]);
