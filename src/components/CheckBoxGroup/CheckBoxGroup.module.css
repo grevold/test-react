@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.title {
+    margin-left: 5px;
+}

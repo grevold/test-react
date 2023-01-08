@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.root {
+  display: flex;
+  justify-content: center;
+  padding: 0px 16px;
+  flex-direction: column;
+}
+
+.filter {
+  display: block;
+  width: 300px;
+  margin: 50px auto 0px;
+}
+
+.headFilter {
+  margin-bottom: 20px;
+}
+
+.search {
+  margin-top: 20px;
+  display: block;
+}
+
+.categories {
+  margin-top: 20px;
+}
+.select {
+  width: 170px;
+  height: 30px;
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+  font-size: 18;
+  border-radius: 5px;
+}
+.cost {
+  margin-top: 20px;
+  display: block;
+}
+.checkCost {
+  display: flex;
+  font-size: 16;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.inputCost {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.buttonFilter {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(22, 22, 195);
+  color: white;
+  border: 0px;
+  font-family: "Franklin Gothic", "Arial Narrow", Arial, sans-serif;
+  font-size: 16;
+  margin-top: 20px;
+}
+.productsContainer {
+  padding-top: 80px;
+}
+.productsListTitle {
+  color: rgb(108, 108, 108);
+  font-size: 20;
+  font-family: "Franklin Gothic", "Arial", Arial, sans-serif;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    height: 100%;
+    padding-left: 0;
+  }

@@ -1,9 +1,48 @@
 export const navigation = {
-  MainPage: "/test-react",
-  PageDice: "/test-react/dice",
-  GachiSoundPage: "/test-react/gachi",
-  TestFormPage: "/test-react/testForm",
-  TestPromisesPage: "/test-react/PromisesPage",
+  MainPage: {
+    href: "/test-react",
+    text: "Главная",
+  },
+  PageDice: {
+    href: "/test-react/dice",
+    text: "Кубики",
+  },
+  GachiSoundPage: {
+    href: "/test-react/gachi",
+    text: "♂Gachi♂",
+  },
+  TestFormPage: {
+    href: "/test-react/testForm",
+    text: "Инпуты",
+  },
+  TestPromisesPage: {
+    href: "/test-react/PromisesPage",
+    text: "Промисы в React",
+  },
+  CatalogPage: {
+    href: "/test-react/CatalogPage",
+    text: "Каталог",
+  },
+  InputText: {
+    href: "/test-react/InputText",
+    text: "Инпут",
+  },
+  ToDoList: {
+    href: "/test-react/ToDoList",
+    text: "Список дел",
+  },
+  TicTacToe: {
+    href: "/test-react/TicTacToe",
+    text: "Крестики Нолики",
+  },
+  Calculator: {
+    href: "/test-react/Calculator",
+    text: "Калькулятор",
+  },
+  ExampleUseEffect: {
+    href: "/test-react/example-use-effect",
+    text: "useEffect",
+  },
 };
 
 export const resources = {
@@ -117,30 +156,6 @@ export const resources = {
       },
     ],
   },
-  Header: {
-    links: [
-      {
-        href: navigation.MainPage,
-        text: "Главная",
-      },
-      {
-        href: navigation.PageDice,
-        text: "Кубики",
-      },
-      {
-        href: navigation.GachiSoundPage,
-        text: "♂Gachi♂",
-      },
-      {
-        href: navigation.TestFormPage,
-        text: "Инпуты",
-      },
-      {
-        href: navigation.TestPromisesPage,
-        text: "Промисы в React",
-      },
-    ],
-  },
   PromisesPage: {
     title: "Промисы в React",
     fetchImagesText: "Скачать картинки",
@@ -155,7 +170,9 @@ export const resources = {
       "https://static.project.tinkoff.ru/static/lifestyle2022/TaskSlug18-2022-08-12-08-55-40.png",
     ],
   },
-  Catalog: {
+  CatalogPage: {
+    banner: "/test-react/images/Catalog/banner.jpg",
+    categories: ["All", "Orks", "Goblins", "Dwarfs", "Chaos", "Eternals"],
     products: [
       //Chaos
       {
@@ -313,5 +330,50 @@ export const resources = {
         category: "Orks",
       },
     ],
+    customOptions: [
+      {
+        title: "По убыванию",
+        id: "fromMaxToMin",
+      },
+      {
+        title: "По возрастанию",
+        id: "fromMinToMax",
+      },
+    ],
+  },
+  ToDoList: {
+    title: "Список дел",
+    initialState: {
+      todayList: [
+        {
+          header: "Поход в магазин",
+          comment: "Нужно купить мясо и молоко",
+        },
+        {
+          header: "Реферат",
+          comment: "Доделать этот чертов реферат",
+        },
+        {
+          header: "Стирка",
+          comment: "Нужно постирать все полотенца",
+        },
+      ],
+      tomorrowList: [
+        {
+          header: "Спортзал",
+          comment: "Нужно сходить в зал в 18:00",
+        },
+        {
+          header: "Кофе",
+          comment: "Нужно купить кофе",
+        },
+      ],
+    },
+  },
+  TicTacToe: {
+    title: "Крестики-Нолики",
+  },
+  Calculator: {
+    title: "Калькулятор",
   },
 };

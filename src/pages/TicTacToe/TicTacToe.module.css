@@ -1,0 +1,67 @@
+.playground {
+  margin: 0 auto;
+  padding: 5px;
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid black;
+}
+.cell {
+  margin: 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border: 2px solid rgb(76, 76, 76);
+  background-color: bisque;
+  font-size: 35px;
+}
+.cell_colored {
+  composes: cell;
+  background-color: green;
+}
+.buttonClean{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 150px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 5px solid green;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.title{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.players{
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.player{
+  display: block;
+  justify-content: center;
+  margin: 0 10px 0 10px;
+}
+.player1{
+  color: red;
+}
+.player2{
+  color: blue;
+}
+.score{
+  font-size: 28px;
+
+}
+.finishTitle{
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(30, 123, 15);
+
+}
+
+
